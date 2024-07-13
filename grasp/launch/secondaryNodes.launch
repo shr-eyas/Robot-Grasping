@@ -1,0 +1,6 @@
+<launch>
+    <!-- Launch the nodes weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee boom!-->
+    <node name="read_motor_data" pkg="grasp" type="motor_state_pub.py" output="screen"/>
+    <node name="grasp_matrix_node" pkg="grasp" type="grasp_pub.py" output="screen"/>
+    <node name="hand_jacobian_node" pkg="grasp" type="hand_jac_pub.py" output="screen"/>
+</launch>

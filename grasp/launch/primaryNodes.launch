@@ -1,0 +1,5 @@
+<launch>
+    <!-- Launch the nodes weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee boom!-->
+    <node name="dynamixel_service_node" pkg="grasp" type="init_motors.py" output="screen"/>
+    <node name="aruco_publisher" pkg="grasp" type="aruco_pub.py" output="screen"/>
+</launch>
