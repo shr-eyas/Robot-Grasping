@@ -1,4 +1,3 @@
 # Robot-Grasping
 
-### ROS Package for 2 Finger Robot built using Dynamixel XL330 Motors
-### Generalization script for ILC Skill Learning at for Robot Grasp and Manipulation
+This ROS package enables grasping and manipulation for a 2-finger robot equipped with Dynamixel XL330 motors. It leverages Iterative Learning Control (ILC) techniques to improve the robot's grasping and manipulation skills through iterative learning and adaptation.
